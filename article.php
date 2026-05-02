@@ -1,0 +1,4 @@
+<?php $title='Article - YaarWin Games'; include 'includes/header.php'; ?>
+<section class="page-hero"><div class="container content"><span class="eyebrow">Article</span><h1>How to Get Started with YaarWin Games</h1><p>This sample article page is ready for long-form player guide content, related links and call-to-action buttons.</p></div></section>
+<section class="section"><div class="container content"><h2>Start with the right category</h2><p>Choose a game category based on your interest, device and available time. Slots are quick, table games are more strategic, and sports-themed games work well for match-day campaigns.</p><h2>Use offers carefully</h2><p>Promotions should be clear, easy to understand, and connected to responsible play messaging.</p><a class="btn btn-primary" href="register.php">Create Account</a></div></section>
+<?php include 'includes/footer.php'; ?>

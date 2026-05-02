@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yaarwingames.pro/sitemap.xml
+Host: yaarwingames.pro

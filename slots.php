@@ -1,0 +1,4 @@
+<?php $title='Slots - YaarWin Games'; include 'includes/header.php'; $games=['Gates of Olympus 1000','Sweet Bonanza','Sugar Rush','The Dog House','Starlight Princess','Book of Dead','Big Bass Splash','Wild Bandida','Koi Princess','Aztec Idols','Great 27','Chests of Cai Shen 2']; ?>
+<section class="page-hero"><div class="container"><span class="eyebrow">Slots lobby</span><h1>Premium Slot Games</h1><p>Original slots listing page with clean cards ready for provider thumbnails.</p></div></section>
+<section class="section"><div class="container grid-4"><?php foreach($games as $g): ?><div class="game-card"><div class="game-thumb"><?= $g ?></div><h3><?= $g ?></h3><p>Add your provider image and direct game URL here.</p><a class="tag" href="register.php">Play Slot</a></div><?php endforeach; ?></div></section>
+<?php include 'includes/footer.php'; ?>

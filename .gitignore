@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+__MACOSX/
+*.zip
+*.tar
+*.tgz
+*.gz
+*.rar
+*.7z
+*.log
+*.sql
+*.sqlite
+*.db
+.env
+.env.*
+!.env.example

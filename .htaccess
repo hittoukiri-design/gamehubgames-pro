@@ -1,0 +1,21 @@
+Options -Indexes
+DirectoryIndex index.html index.php default.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule (^|/)\. - [F,L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<FilesMatch "^\.env$|^\.ht|\.(bak|backup|old|orig|log|sql|sqlite|db|ini|yml|yaml|zip|tar|tgz|gz|7z|rar)$">
+  Require all denied
+</FilesMatch>
