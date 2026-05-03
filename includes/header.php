@@ -5,36 +5,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?= htmlspecialchars($title ?? $brand) ?></title>
-  <meta name="description" content="<?= htmlspecialchars($description ?? 'YaarWin Games premium online games, slots, casino, sports and rewards platform.') ?>">
-  <meta name="theme-color" content="#1c9536">
-  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="description" content="<?= htmlspecialchars($description ?? 'YaarWin Games India guide hub for YaarWin login, online betting topics, casino games, bonuses, UPI payment checks, and fast withdrawal reading paths.') ?>">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="theme-color" content="#050705">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon-64x64.png" sizes="64x64" type="image/png">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 <header class="site-header">
   <div class="top-strip">
-    <span>Welcome bonus available</span>
-    <span>Fast support</span>
-    <span>Mobile-first gaming</span>
+    <span>YaarWin login guide</span>
+    <span>UPI payment topics</span>
+    <span>Fast withdrawal reads</span>
   </div>
   <nav class="navbar container">
-    <a class="brand" href="index.php" aria-label="YaarWin Games Home">
-      <img src="assets/img/logo.svg" alt="YaarWin Games Logo">
+    <a class="brand" href="/" aria-label="YaarWin Games Home">
+      <img src="/assets/img/ywg-logo.webp" alt="YaarWin Games Logo" width="44" height="44">
       <span>YaarWin <b>Games</b></span>
     </a>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
     <div class="nav-links" id="navLinks">
-      <a class="<?= active('index.php') ?>" href="index.php">Home</a>
-      <a class="<?= active('casino.php') ?>" href="casino.php">Casino</a>
-      <a class="<?= active('slots.php') ?>" href="slots.php">Slots</a>
-      <a class="<?= active('sports.php') ?>" href="sports.php">Sports</a>
-      <a class="<?= active('promotions.php') ?>" href="promotions.php">Promotions</a>
-      <a class="<?= active('app.php') ?>" href="app.php">App</a>
-      <a class="<?= active('blog.php') ?>" href="blog.php">Blog</a>
+      <a class="<?= active('index.php') ?>" href="/">Home</a>
+      <a href="/yaarwin/">YaarWin</a>
+      <a class="<?= active('casino.php') ?>" href="/casino/">Casino</a>
+      <a class="<?= active('promotions.php') ?>" href="/promotions/">Promotions</a>
+      <a href="/blog/">Blog</a>
+      <a class="<?= active('contact.php') ?>" href="/contact/">Help</a>
     </div>
     <div class="nav-actions">
-      <a href="register.php" class="btn btn-outline">Login</a>
-      <a href="register.php" class="btn btn-primary">Register</a>
+      <a href="/yaarwin-login/" class="btn btn-outline">Login Guide</a>
+      <a href="https://t.me/raviyaYaaarwinVIP" class="btn btn-primary" rel="nofollow noopener" target="_blank">Join Now</a>
     </div>
   </nav>
 </header>

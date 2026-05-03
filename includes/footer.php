@@ -2,36 +2,36 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <a class="brand footer-brand" href="index.php"><img src="assets/img/logo.svg" alt="YaarWin Games"><span>YaarWin <b>Games</b></span></a>
-      <p>Original premium gaming template with responsive casino-style layout, green-black theme, and clean PHP structure.</p>
+      <a class="brand footer-brand" href="/"><img src="/assets/img/ywg-logo.webp" alt="YaarWin Games" width="44" height="44"><span>YaarWin <b>Games</b></span></a>
+      <p>YaarWin Games is an India-focused guide hub for YaarWin login, online betting topics, casino games, bonuses, UPI payment checks, and fast withdrawal reading paths.</p>
     </div>
     <div>
       <h4>Explore</h4>
-      <a href="casino.php">Casino Games</a>
-      <a href="slots.php">Slots</a>
-      <a href="sports.php">Sports</a>
-      <a href="promotions.php">Promotions</a>
+      <a href="/casino/">Casino Games</a>
+      <a href="/slots/">Slots</a>
+      <a href="/sports/">Sports</a>
+      <a href="/promotions/">Promotions</a>
     </div>
     <div>
-      <h4>Company</h4>
-      <a href="about.php">About</a>
-      <a href="contact.php">Contact</a>
-      <a href="privacy.php">Privacy Policy</a>
-      <a href="terms.php">Terms</a>
+      <h4>YaarWin Guides</h4>
+      <a href="/yaarwin/">YaarWin Overview</a>
+      <a href="/yaarwin-login/">YaarWin Login</a>
+      <a href="/yaarwin-game-login/">Game Login Help</a>
+      <a href="/blog/">Blog</a>
     </div>
     <div>
       <h4>Support</h4>
-      <a href="responsible-gaming.php">Responsible Gaming</a>
-      <a href="app.php">Mobile App</a>
-      <a href="register.php">Create Account</a>
+      <a href="/responsible-gaming/">Responsible Gaming</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy/">Privacy Policy</a>
+      <a href="/terms/">Terms</a>
     </div>
   </div>
   <div class="footer-bottom">© <?= date('Y') ?> YaarWin Games. All rights reserved.</div>
 </footer>
 <div class="float-buttons">
   <a class="float tg" href="<?= $tg_link ?>" aria-label="Telegram">TG</a>
-  <a class="float wa" href="<?= $wa_link ?>" aria-label="WhatsApp">WA</a>
 </div>
-<script src="assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>

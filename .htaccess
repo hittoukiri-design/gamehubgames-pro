@@ -1,9 +1,20 @@
 Options -Indexes
-DirectoryIndex index.html index.php default.php
+DirectoryIndex index.php index.html default.php
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteRule (^|/)\. - [F,L]
+  RewriteRule ^index\.html$ / [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+blog\.php[\s?] [NC]
+  RewriteRule ^blog\.php$ /blog/ [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+  RewriteRule ^index\.php$ / [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/([^.?\s]+)\.php[\s?] [NC]
+  RewriteRule ^ /%1/ [R=301,L]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+  RewriteRule ^(.+?)/?$ $1.php [L]
 </IfModule>
 
 <IfModule mod_deflate.c>
