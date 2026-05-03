@@ -12,7 +12,7 @@ include 'includes/header.php';
     <h1><span class="hero-line">YaarWin Login India</span> <span>Aviator, Teen Patti, Rummy & Cricket Betting</span></h1>
     <p class="hero-lead">Explore YaarWin Games for Aviator, Teen Patti, Rummy, Wingo colour prediction, slots, cricket betting, live casino, Andar Bahar, Dragon Tiger, Mines, Plinko, UPI payment checks, bonuses, and fast withdrawal support for Indian players.</p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="/yaarwin-login/">YaarWin Login Guide</a>
+      <a class="btn btn-primary" href="<?= htmlspecialchars($login_link) ?>" rel="nofollow noopener" target="_blank">YaarWin Login</a>
       <a class="btn btn-outline" href="/blog/">Read Game Guides</a>
       <a class="btn btn-gold" href="https://t.me/raviyaYaaarwinVIP" rel="nofollow noopener" target="_blank">Connect with Teacher</a>
     </div>
@@ -57,7 +57,7 @@ include 'includes/header.php';
       <h2>Join YaarWin Games early and prepare your account path</h2>
       <p>Use this page to check YaarWin login guidance, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, casino categories, bonus terms, and fast withdrawal articles. If you are ready to move with YaarWin, connect with the official teacher below.</p>
       <p lang="hi">अगर आप YaarWin के साथ आगे बढ़ने के लिए तैयार हैं, तो नीचे दिए गए बटन पर क्लिक करें।</p>
-      <a class="btn btn-primary" href="https://t.me/raviyaYaaarwinVIP" rel="nofollow noopener" target="_blank">Join Now on Telegram</a>
+      <a class="btn btn-primary" href="<?= htmlspecialchars($register_link) ?>" rel="nofollow noopener" target="_blank">Register Now</a>
     </div>
     <picture>
       <source media="(max-width: 720px)" srcset="/assets/img/promos/join-now-banner-mobile.webp">

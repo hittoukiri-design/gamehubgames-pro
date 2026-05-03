@@ -5,8 +5,8 @@
     <h1>YaarWin Register and Login Guide</h1>
     <p>Prepare your mobile number, password, UID notes, and payment details before opening a new YaarWin account or returning to the login area.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="/yaarwin-login/">Read Login Guide</a>
-      <a class="btn btn-outline" href="https://t.me/raviyaYaaarwinVIP" rel="nofollow noopener" target="_blank">Connect with Teacher</a>
+      <a class="btn btn-primary" href="<?= htmlspecialchars($register_link) ?>" rel="nofollow noopener" target="_blank">Register Now</a>
+      <a class="btn btn-outline" href="<?= htmlspecialchars($login_link) ?>" rel="nofollow noopener" target="_blank">Login</a>
     </div>
   </div>
 </section>

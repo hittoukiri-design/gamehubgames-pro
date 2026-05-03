@@ -34,8 +34,8 @@
       <a class="<?= active('contact.php') ?>" href="/contact/">Help</a>
     </div>
     <div class="nav-actions">
-      <a href="/yaarwin-login/" class="btn btn-outline">Login Guide</a>
-      <a href="https://t.me/raviyaYaaarwinVIP" class="btn btn-primary" rel="nofollow noopener" target="_blank">Join Now</a>
+      <a href="<?= htmlspecialchars($login_link) ?>" class="btn btn-outline" rel="nofollow noopener" target="_blank">Login</a>
+      <a href="<?= htmlspecialchars($register_link) ?>" class="btn btn-primary" rel="nofollow noopener" target="_blank">Register</a>
     </div>
   </nav>
 </header>
