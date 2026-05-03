@@ -1,6 +1,6 @@
 <?php
-$title = 'YaarWin Games India - Online Betting, Casino, Login & Fast Withdrawal';
-$description = 'YaarWin Games India covers YaarWin login, online betting, casino games, bonuses, UPI payment checks, fast withdrawal support, and mobile-first real-money game access.';
+$title = 'YaarWin Games India - YaarWin Login, Aviator, Teen Patti, Rummy & Cricket Betting';
+$description = 'YaarWin Games India covers YaarWin login, Aviator, Teen Patti, Rummy, Wingo colour prediction, slots, cricket betting, live casino, UPI payments, bonuses, and fast withdrawal support.';
 include 'includes/header.php';
 ?>
 <section class="hero hero-lobby">
@@ -8,9 +8,9 @@ include 'includes/header.php';
     <div class="hero-brand-mark" aria-hidden="true">
       <img src="/assets/img/ywg-logo.webp" alt="" width="180" height="180">
     </div>
-    <p class="kicker">India real money games</p>
-    <h1><span class="hero-line">YaarWin Games India</span> <span>Online Betting & Casino</span></h1>
-    <p class="hero-lead">Explore YaarWin game login, online betting, live casino games, bonus updates, UPI payment checks, fast withdrawal support, and mobile-first real-money game access for Indian players.</p>
+    <p class="kicker">YaarWin login • India betting games</p>
+    <h1><span class="hero-line">YaarWin Login India</span> <span>Aviator, Teen Patti, Rummy & Cricket Betting</span></h1>
+    <p class="hero-lead">Explore YaarWin Games for Aviator, Teen Patti, Rummy, Wingo colour prediction, slots, cricket betting, live casino, Andar Bahar, Dragon Tiger, Mines, Plinko, UPI payment checks, bonuses, and fast withdrawal support for Indian players.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="/yaarwin-login/">YaarWin Login Guide</a>
       <a class="btn btn-outline" href="/blog/">Read Game Guides</a>
@@ -55,7 +55,7 @@ include 'includes/header.php';
     <div>
       <p class="kicker">Before launch traffic gets busy</p>
       <h2>Join YaarWin Games early and prepare your account path</h2>
-      <p>Use this page to check YaarWin login guidance, online betting categories, bonus terms, and fast withdrawal articles. If you are ready to move with YaarWin, connect with the official teacher below.</p>
+      <p>Use this page to check YaarWin login guidance, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, casino categories, bonus terms, and fast withdrawal articles. If you are ready to move with YaarWin, connect with the official teacher below.</p>
       <p lang="hi">अगर आप YaarWin के साथ आगे बढ़ने के लिए तैयार हैं, तो नीचे दिए गए बटन पर क्लिक करें।</p>
       <a class="btn btn-primary" href="https://t.me/raviyaYaaarwinVIP" rel="nofollow noopener" target="_blank">Join Now on Telegram</a>
     </div>
@@ -71,20 +71,23 @@ include 'includes/header.php';
     <div class="section-head">
       <div>
         <p class="kicker">Popular YaarWin topics</p>
-        <h2>Choose your YaarWin game zone</h2>
+        <h2>Popular YaarWin games Indian players search for</h2>
       </div>
-      <p>Find the main YaarWin Games categories for Indian users: casino games, Aviator, color prediction, Teen Patti, cricket betting topics, online betting safety, bonuses, and withdrawal guidance.</p>
+      <p>Find YaarWin Games categories for Indian users: Aviator crash game, Teen Patti, Rummy, Andar Bahar, Dragon Tiger, Wingo colour prediction, slots, cricket betting topics, live casino, online betting safety, bonuses, and withdrawal guidance.</p>
     </div>
     <div class="grid-4">
       <?php
       $zones = [
-        ['Casino Games', 'Live casino, table games, slots, and mobile casino access topics.', '/casino/'],
         ['Aviator Game', 'Crash-game basics, cash-out habits, and beginner-friendly Aviator guides.', '/blog/aviator-game-india-guide.html'],
-        ['Color Prediction', 'WinGo-style color prediction topics, risk reminders, and mobile play checks.', '/blog/color-prediction-game-india.html'],
+        ['Teen Patti', 'Card-game tips, bankroll reminders, and safer real-money play habits.', '/blog/teen-patti-tips-india.html'],
+        ['Rummy Game', 'Rummy table basics, card flow, session control, and mobile play reminders.', '/casino/'],
+        ['Wingo Colour Prediction', 'WinGo-style colour prediction topics, risk reminders, and mobile play checks.', '/blog/color-prediction-game-india.html'],
+        ['Cricket Betting', 'Cricket match topics, sports betting basics, and responsible play notes.', '/sports/'],
+        ['Live Casino', 'Live casino, table games, Andar Bahar, Dragon Tiger, and mobile casino access topics.', '/casino/'],
+        ['Slots & Jackpot Games', 'Slots, bonus rounds, jackpot-style games, and mobile casino browsing.', '/slots/'],
+        ['Mines & Plinko', 'Fast casino mini-games, risk levels, timing habits, and safer session checks.', '/casino/'],
         ['Fast Withdrawal', 'UPI, Paytm, PhonePe, order numbers, proof screenshots, and payout readiness.', '/blog/fast-withdrawal-games-india.html'],
         ['Bonus Offers', 'Deposit bonus, referral promotion, daily salary, and ads fee campaign guidance.', '/promotions/'],
-        ['Teen Patti', 'Card-game tips, bankroll reminders, and safer real-money play habits.', '/blog/teen-patti-tips-india.html'],
-        ['Online Betting', 'Cricket betting, sports topics, mobile betting apps, and responsible play notes.', '/sports/'],
         ['YaarWin Login', 'Account access, UID, mobile sign-in, and teacher support routes.', '/yaarwin-login/']
       ];
       foreach ($zones as $zone):
@@ -117,7 +120,7 @@ include 'includes/header.php';
       </article>
       <article class="card">
         <h3>YaarWin Online Betting India</h3>
-        <p>Compare casino games, cricket betting topics, Aviator, Teen Patti, color prediction, bonuses, and mobile betting basics in one reading path.</p>
+        <p>Compare Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, live casino, Andar Bahar, Dragon Tiger, slots, bonuses, and mobile betting basics in one reading path.</p>
         <a href="/blog/mobile-betting-platform-india.html" class="text-link">Read betting guide</a>
       </article>
       <article class="card">
