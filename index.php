@@ -1,6 +1,6 @@
 <?php
-$title = 'YaarWin Games India - YaarWin Login, Online Betting & Fast Withdrawal Guides';
-$description = 'YaarWin Games is an India guide hub for YaarWin game login, online betting topics, casino games, bonuses, UPI payment checks, fast withdrawal reading paths, and responsible play reminders.';
+$title = 'YaarWin Games India - Online Betting, Casino, Login & Fast Withdrawal';
+$description = 'YaarWin Games India covers YaarWin login, online betting, casino games, bonuses, UPI payment checks, fast withdrawal support, and mobile-first real-money game access.';
 include 'includes/header.php';
 ?>
 <section class="hero hero-lobby">
@@ -8,9 +8,9 @@ include 'includes/header.php';
     <div class="hero-brand-mark" aria-hidden="true">
       <img src="/assets/img/ywg-logo.webp" alt="" width="180" height="180">
     </div>
-    <p class="kicker">India game guides</p>
-    <h1><span class="hero-line">YaarWin Games</span><span>Live Guide Hub</span></h1>
-    <p class="hero-lead">Explore YaarWin game login help, online betting guides, casino game topics, bonus updates, UPI payment checks, and fast withdrawal reading paths before you continue to official YaarWin access.</p>
+    <p class="kicker">India real money games</p>
+    <h1><span class="hero-line">YaarWin Games India</span> <span>Online Betting & Casino</span></h1>
+    <p class="hero-lead">Explore YaarWin game login, online betting, live casino games, bonus updates, UPI payment checks, fast withdrawal support, and mobile-first real-money game access for Indian players.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="/yaarwin-login/">YaarWin Login Guide</a>
       <a class="btn btn-outline" href="/blog/">Read Game Guides</a>
@@ -45,7 +45,7 @@ include 'includes/header.php';
     <a class="dock-card" href="/contact/">
       <span>04</span>
       <h2>Teacher Support</h2>
-      <p>Manual help route for account, recharge, withdrawal, salary, and agent questions.</p>
+      <p>Manual help route for account, recharge, withdrawal, salary, promoter, and agent questions.</p>
     </a>
   </div>
 </section>
@@ -71,14 +71,14 @@ include 'includes/header.php';
     <div class="section-head">
       <div>
         <p class="kicker">Popular YaarWin topics</p>
-        <h2>Choose your YaarWin game guide zone</h2>
+        <h2>Choose your YaarWin game zone</h2>
       </div>
-      <p>Find the main YaarWin Games reading paths for Indian users: casino games, Aviator, color prediction, Teen Patti, cricket betting topics, online betting safety, bonuses, and withdrawal guidance.</p>
+      <p>Find the main YaarWin Games categories for Indian users: casino games, Aviator, color prediction, Teen Patti, cricket betting topics, online betting safety, bonuses, and withdrawal guidance.</p>
     </div>
     <div class="grid-4">
       <?php
       $zones = [
-        ['Casino Games', 'Live casino, table games, slots, and mobile casino reading paths.', '/casino/'],
+        ['Casino Games', 'Live casino, table games, slots, and mobile casino access topics.', '/casino/'],
         ['Aviator Game', 'Crash-game basics, cash-out habits, and beginner-friendly Aviator guides.', '/blog/aviator-game-india-guide.html'],
         ['Color Prediction', 'WinGo-style color prediction topics, risk reminders, and mobile play checks.', '/blog/color-prediction-game-india.html'],
         ['Fast Withdrawal', 'UPI, Paytm, PhonePe, order numbers, proof screenshots, and payout readiness.', '/blog/fast-withdrawal-games-india.html'],
@@ -134,7 +134,7 @@ include 'includes/header.php';
     <div class="section-head">
       <div>
         <p class="kicker">Latest YaarWin reading list</p>
-        <h2>Guide articles for launch week</h2>
+        <h2>Launch week YaarWin updates</h2>
       </div>
       <p>These articles help users understand YaarWin bonuses, account preparation, payment clarity, and responsible play before joining a real-money session.</p>
     </div>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?= htmlspecialchars($title ?? $brand) ?></title>
-  <meta name="description" content="<?= htmlspecialchars($description ?? 'YaarWin Games India guide hub for YaarWin login, online betting topics, casino games, bonuses, UPI payment checks, and fast withdrawal reading paths.') ?>">
+  <meta name="description" content="<?= htmlspecialchars($description ?? 'YaarWin Games India platform for YaarWin login, online betting topics, casino games, bonuses, UPI payment checks, fast withdrawal support, and mobile-first real-money game access.') ?>">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <meta name="theme-color" content="#050705">
   <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
