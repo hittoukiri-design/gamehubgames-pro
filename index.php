@@ -14,7 +14,7 @@ include 'includes/header.php';
     <div class="hero-actions">
       <a class="btn btn-primary" href="<?= htmlspecialchars($login_link) ?>" rel="nofollow noopener" target="_blank">YaarWin Login</a>
       <a class="btn btn-outline" href="/blog/">Read Game Guides</a>
-      <a class="btn btn-gold" href="https://t.me/raviyaYaaarwinVIP" rel="nofollow noopener" target="_blank">Connect with Teacher</a>
+      <a class="btn btn-gold" href="https://t.me/YaarWinappco" rel="nofollow noopener" target="_blank">Connect with Teacher</a>
     </div>
     <div class="lobby-orbit" aria-hidden="true">
       <span class="orbit-chip chip-login">Login</span>
