@@ -14,7 +14,7 @@
   <div class="container grid-3">
     <article class="card"><h2>Check your mobile number</h2><p>Use an active number and keep OTP messages private. Account questions are easier to solve when your mobile number and UID are ready.</p></article>
     <article class="card"><h2>Review bonus terms</h2><p>Read bonus notes before adding funds, especially when a promotion has recharge, referral, or turnover conditions.</p></article>
-    <article class="card"><h2>Keep payment details clean</h2><p>Use consistent wallet, UPI, or bank information so recharge and withdrawal reviews stay easier to follow.</p></article>
+    <article class="card"><h2>Keep payment details clean</h2><p>Use consistent wallet, UPI, or bank information so recharge and redemption reviews stay easier to follow.</p></article>
   </div>
 </section>
 <?php include 'includes/footer.php'; ?>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?= htmlspecialchars($title ?? $brand) ?></title>
-  <meta name="description" content="<?= htmlspecialchars($description ?? 'GameHub Games India platform for GameHub login, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, live casino, bonuses, UPI payment checks, fast withdrawal support, and mobile-first real-money game access.') ?>">
+  <meta name="description" content="<?= htmlspecialchars($description ?? 'GameHub Games India platform for GameHub login, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket gaming, live arcade, bonuses, UPI payment checks, fast redemption support, and mobile-first real-money game access.') ?>">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <meta name="theme-color" content="#050705">
   <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -17,7 +17,7 @@
   <div class="top-strip">
     <span>GameHub login guide</span>
     <span>UPI payment topics</span>
-    <span>Fast withdrawal reads</span>
+    <span>Fast redemption reads</span>
   </div>
   <nav class="navbar container">
     <a class="brand" href="/" aria-label="GameHub Games Home">
@@ -28,7 +28,7 @@
     <div class="nav-links" id="navLinks">
       <a class="<?= active('index.php') ?>" href="/">Home</a>
       <a href="/gamehub/">GameHub</a>
-      <a class="<?= active('casino.php') ?>" href="/casino/">Casino</a>
+      <a class="<?= active('arcade.php') ?>" href="/arcade/">Arcade</a>
       <a class="<?= active('promotions.php') ?>" href="/promotions/">Promotions</a>
       <a href="/blog/">Blog</a>
       <a class="<?= active('contact.php') ?>" href="/contact/">Help</a>

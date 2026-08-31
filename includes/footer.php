@@ -3,11 +3,11 @@
   <div class="container footer-grid">
     <div>
       <a class="brand footer-brand" href="/"><img src="/assets/img/ywg-logo.webp" alt="GameHub Games" width="44" height="44"><span>GameHub <b>Games</b></span></a>
-      <p>GameHub Games is an India-focused GameHub platform for login access, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, live casino, bonuses, UPI payment checks, and fast withdrawal reading paths.</p>
+      <p>GameHub Games is an India-focused GameHub platform for login access, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket gaming, live arcade, bonuses, UPI payment checks, and fast redemption reading paths.</p>
     </div>
     <div>
       <h4>Explore</h4>
-      <a href="/casino/">Casino Games</a>
+      <a href="/arcade/">Arcade Games</a>
       <a href="/slots/">Slots</a>
       <a href="/sports/">Sports</a>
       <a href="/promotions/">Promotions</a>

@@ -1,0 +1,4 @@
+<?php $title='GameHub Arcade Games India'; include 'includes/header.php'; ?>
+<section class="page-hero"><div class="container"><span class="eyebrow">Arcade floor</span><h1>GameHub Arcade Games India</h1><p>Review roulette, blackjack, baccarat, Teen Patti, Andar Bahar, Dragon Tiger, live arcade topics, mobile arcade habits, and responsible play reminders before joining a real-money session.</p></div></section>
+<section class="section"><div class="container grid-3"><?php foreach(['Roulette Arena','Baccarat Lounge','Blackjack Pro','Teen Patti Room','Andar Bahar','Dragon Tiger'] as $g): ?><div class="card"><span class="tag">Arcade</span><h3><?= $g ?></h3><p>Check game pace, rules, wallet limits, and session budget before playing <?= $g ?> with virtual coins.</p><a class="btn btn-primary" href="<?= htmlspecialchars($login_link) ?>" rel="nofollow noopener" target="_blank">Open login</a></div><?php endforeach; ?></div></section>
+<?php include 'includes/footer.php'; ?>
