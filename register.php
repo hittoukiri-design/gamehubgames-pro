@@ -1,9 +1,9 @@
-<?php $title='YaarWin Register and Login Guide'; include 'includes/header.php'; ?>
+<?php $title='GameHub Register and Login Guide'; include 'includes/header.php'; ?>
 <section class="page-hero">
   <div class="container content">
     <span class="eyebrow">Account access</span>
-    <h1>YaarWin Register and Login Guide</h1>
-    <p>Prepare your mobile number, password, UID notes, and payment details before opening a new YaarWin account or returning to the login area.</p>
+    <h1>GameHub Register and Login Guide</h1>
+    <p>Prepare your mobile number, password, UID notes, and payment details before opening a new GameHub account or returning to the login area.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="<?= htmlspecialchars($register_link) ?>" rel="nofollow noopener" target="_blank">Register Now</a>
       <a class="btn btn-outline" href="<?= htmlspecialchars($login_link) ?>" rel="nofollow noopener" target="_blank">Login</a>

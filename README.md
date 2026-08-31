@@ -1,6 +1,6 @@
-# YaarWinGames.pro
+# GameHubGames.pro
 
-Static/PHP public site for `yaarwingames.pro`.
+Static/PHP public site for `gamehubgames.pro`.
 
 ## Deploy Notes
 
@@ -12,6 +12,6 @@ Static/PHP public site for `yaarwingames.pro`.
 
 ## Launch Checklist
 
-- Confirm Hostinger SSL is active for `yaarwingames.pro` and `www.yaarwingames.pro`.
+- Confirm Hostinger SSL is active for `gamehubgames.pro` and `www.gamehubgames.pro`.
 - Confirm Cloudflare SSL/TLS is set to Full or Full (strict) after origin SSL is valid.
 - Purge Cloudflare cache after deployment.

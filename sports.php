@@ -1,4 +1,4 @@
-<?php $title='Sports - YaarWin Games'; include 'includes/header.php'; ?>
+<?php $title='Sports - GameHub Games'; include 'includes/header.php'; ?>
 <section class="page-hero">
   <div class="container">
     <span class="eyebrow">Sports hub</span>
